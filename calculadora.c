@@ -29,10 +29,16 @@ void subtrai()
 
 void divide()
 { 
-    //todo
-    system ("pause");
-    system("cls");
-    menu();
+    int A;
+    int B;
+    int C;
+
+    printf( "Escreva o primeiro numero: \n");
+    scanf("%d",&A);
+    printf (" Escreva o segundo numero: \n");
+    scanf("%d", &B);
+    C=A/B;
+    printf( "O valor total: %d\n", Divisao);
 }
 
 void multiplica()
