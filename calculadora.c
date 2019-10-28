@@ -11,10 +11,12 @@ void soma()
 
 void subtrai()
 {
-    //todo
-    system ("pause");
-    system("cls"); 
-    menu();
+    int a, b, subtrair;
+
+   scanf("%d", &a);
+   scanf("%d", &b);
+   subtrair = a - b;
+   printf("%d\n", c);
 }
 
 void divide()
