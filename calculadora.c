@@ -27,7 +27,17 @@ void divide()
 
 void multiplica()
 { 
-    //todo
+    int A;
+    int B;
+    int C;
+
+    printf( "Escreva o primeiro numero: \n");
+    scanf("%d",&A);
+    printf (" Escreva o segundo numero: \n");
+    scanf("%d", &B);
+    C=A*B;
+    printf( "O valor total: %d\n", C);
+
     system ("pause");
     system("cls");
     menu();
