@@ -16,7 +16,7 @@ void soma()
 
     system ("pause"); 
     system("cls"); 
-    menu(); 
+    menu();  
 }
 
 void subtrai()
