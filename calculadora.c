@@ -3,7 +3,17 @@
 
 void soma()
 { 
-    //todo
+    int A;
+    int B;
+    int soma;
+
+    printf( "Escreva o primeiro numero: \n");
+    scanf("%d",&A);
+    printf (" Escreva o segundo numero: \n");
+    scanf("%d", &B);
+    soma=A+B;
+    printf( "O valor total: %d\n", soma);
+
     system ("pause"); 
     system("cls"); 
     menu(); 
