@@ -11,11 +11,11 @@ void soma()
 
 void subtrai()
 {
-    int a, b, subtrair;
+    int a, b, c;
 
    scanf("%d", &a);
    scanf("%d", &b);
-   subtrair = a - b;
+   c = a - b;
    printf("%d\n", c);
 }
 
