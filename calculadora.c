@@ -35,9 +35,15 @@ void subtrai()
 
 void divide()
 { 
-    //todo
-    system ("pause");
-    system("cls");
+    int a;
+    int b;
+
+    printf("Digite o primeiro numero: \n" );
+    scanf("%d", &a);
+
+    printf("Digite o segundo numero: \n" );
+    scanf("%d", &b);
+    printf("%d / %d = %d\n", a, b, a / b);
     menu();
 }
 
