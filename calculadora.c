@@ -49,10 +49,23 @@ void divide()
 
 void multiplica()
 { 
-    //todo
+    int a;
+    int b;
+    int multiplicacao;
+
+    printf("Digite o primeiro numero: \n" );
+    scanf("%d", &a);
+
+    printf("Digite o segundo numero: \n" );
+    scanf("%d", &b); 
+
+    multiplicacao=A*B;
+    printf( "O valor total: %d\n", multiplicacao);
+
+    menu();
     system ("pause");
     system("cls");
-    menu();
+    
 }
 
 void menu()
